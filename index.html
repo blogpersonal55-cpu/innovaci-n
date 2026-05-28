@@ -1,0 +1,7 @@
+let estudiantes = {};
+
+fetch("PEGAR_AQUI_TU_URL_DE_APPS_SCRIPT")
+.then(res => res.json())
+.then(data => {
+    estudiantes = data;
+});
